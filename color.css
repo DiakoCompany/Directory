@@ -1,0 +1,42 @@
+:root
+{
+    --BackGround-1 :#FFFFFF;
+    --BackGround-2 :#D9D9D9;
+    --TextColor : #000000;
+    --ForColor :#626262;
+}
+/* Header */
+#Header 
+{
+    background-color: var(--BackGround-2);
+}
+/* Baner */
+#Baner
+{
+    background-color: var(--BackGround-2);
+}
+/* Groups */
+#Groups
+{
+    background-color: var(--BackGround-2);
+}
+/* TopJob */
+#TopJob
+{
+    background-color: var(--BackGround-2);
+}
+/* TopJob */
+#Weblog
+{
+    background-color: var(--BackGround-2);
+}
+/* About Us */
+#AboutUs
+{
+    background-color: var(--BackGround-2);
+}
+/* Footer */
+#Footer
+{
+    background-color: var(--BackGround-2);
+}
