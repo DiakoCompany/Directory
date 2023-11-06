@@ -27,6 +27,18 @@
 {
     background-color: var(--BackGround-1);
 }
+#Baner .Banerbox
+{
+    background-color: var(--BackGround-2);
+}
+#Baner .Filterbox
+{
+    background-color: var(--BackGround-2);
+}
+#Province , #City 
+{
+    background-color: var(--BackGround-1);
+}
 /* Groups */
 #Groups
 {
