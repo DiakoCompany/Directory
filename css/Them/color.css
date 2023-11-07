@@ -42,6 +42,10 @@
 /* Groups */
 #Groups
 {
+    background-color: var(--BackGround-1);
+}
+#Groups .gb
+{
     background-color: var(--BackGround-2);
 }
 /* TopJob */
