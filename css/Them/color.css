@@ -51,6 +51,14 @@
 /* TopJob */
 #TopJob
 {
+    background-color: var(--BackGround-1);
+}
+#TopJob .Job_Viwe
+{
+    background-color: var(--BackGround-2);
+}
+#TopJob .Arrow_Box
+{
     background-color: var(--BackGround-2);
 }
 /* TopJob */
