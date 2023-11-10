@@ -1,4 +1,4 @@
-body{
+.Content_Padding{
     padding-left: 5%;
     padding-right: 5%;
 }
@@ -137,18 +137,22 @@ body{
     margin-top: 100px;
     padding-left: 100px;
 }
+#Groups .Groups_Row
+{
+    margin-left: 0px;
+}
 #Groups .gb
 {
     width: 275px;
     height: 275px;
     border-radius: 50px;
     margin-top: 50px;
-    margin-left: 125px;
+    margin-left: 50px;
 }
 .gb img
 {
     margin-top: 80px;
-    margin-left: 105px;
+    margin-left: 100px;
 }
 .gb h3
 {
@@ -234,23 +238,147 @@ body{
 /* Weblog */
 #Weblog
 {
+    position: relative;
+    margin-right: -100px !important;
     width: 100%;
-    height: 1350px;
-    margin-top: 125px;
-    margin-bottom: 75px;
+    height: 1300px;
+}
+#Weblog h2
+{
+    text-align: right;
+    font-size: 75px;
+    padding-top: 175px;
+}
+#Weblog .WebLog_Box_Left
+{
+    width: 1600px;
+    height: 700px;
+    margin-right: 50px;
+    margin-top: 50px;
+    border-radius: 50px;
+}
+#Weblog .WebLog_Box_Right
+{
+    width: 600px;
+    height: 700px;
+    margin-top: 50px;
+    border-radius: 50px;
+    clip-path: polygon(0 0 , 100% 0 , 100% 100% , 150px 100% ,150px 525px , 0 525px , 0 100%);
+}
+#Weblog .Arrow_Box
+{
+    height: 130px;
+    width: 130px;
+    border-radius: 100%;
+}
+#Weblog .Arrow_Left
+{
+    position: absolute;
+    margin-top: 600px;
+    margin-left: 1650px;
+}
+#Weblog .Arrow_img_left
+{
+    margin-top: 30px;
+    margin-left: 30px;
 }
 /* About Us */
 #AboutUs
 {
     width: 100%;
     height: 700px;
-    margin-top: 75px;
-    margin-bottom: 75px;
+    padding-top: 75px;
+}
+#AboutUs .About_Us
+{
+    width: 2250px;
+    height: 500px;
+    border-radius: 50px;
+    position: absolute;
+    margin-left: -15px !important;
+    padding-top: 125px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+#AboutUs .About_Us p
+{
+font-size: 30px;
+font-weight: bold;
+text-align: center;
 }
 /* Footer */
 #Footer
 {
     width: 100%;
-    height: 500px;
-    margin-top: 50px;
+    height: 650px;
+}
+#Footer h2
+{
+    text-align: right;
+    font-size: 50px;
+    padding-top: 50px;
+}
+#Footer .Certificate
+{
+    width: 700px;
+    height: 350px;
+}
+#Footer .Certificate_Box
+{
+    width: 300px;
+    height: 300px;
+    border-radius: 50px;
+    margin-left: 40px;
+    margin-top: 25px;
+}
+#Footer .Link
+{
+    width: 1300px;
+    height: 350px;
+    margin-left: 200px;
+}
+#Footer .Link h3
+{
+    font-size: 30px;
+    text-align: right;
+    margin-top: 75px;
+    margin-left: 500px;
+}
+#Footer .Link div
+{
+direction: rtl;
+}
+#Footer .a
+{
+    padding-right: 95px;
+}
+#Footer .Contact
+{
+    width: 1900px;
+    height: 150px;
+    margin-left: 300px;
+}
+#Footer .line
+{
+    width: 1900;
+    height: 5px;
+    border: 5px solid;
+}
+#Footer .SocialMedia_Box
+{
+    margin-top: 15px;
+    margin-left: 1700px;
+    margin-bottom: 15px;
+}
+#Footer .SocialMedia_img
+{
+    margin-left: 10px;
+}
+#Footer .Info_Box
+{
+    margin-top: 15px;
+}
+#Footer .Info_img
+{
+    margin-left: 800px;
 }
