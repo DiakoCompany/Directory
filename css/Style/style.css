@@ -30,6 +30,7 @@ body{
    margin-top: 5px;
    border-radius: 25px;
    border: none !important;
+   outline: none;
    padding-right: 20px;
    font-size: 20px;
 }
@@ -158,16 +159,84 @@ body{
 #TopJob
 {
     width: 100%;
-    height: 1350px;
+    height: 1300px;
     margin-top: 75px;
     margin-bottom: 75px;
+}
+#TopJob h2
+{
+    text-align: right;
+    font-size: 75px;
+}
+#TopJob .Job-Row
+{
+    margin-bottom: 75px;
+   margin-left: 300px;
+}
+#TopJob .Job_Viwe
+{
+    width: 400px;
+    height: 500px;
+    border-radius: 50px;
+    margin-left: 100px;
+}
+#TopJob .Job_Viwe_Left
+{
+    clip-path: polygon(0 0 , 100% 0, 100% 100% , 125px 100% , 125px 375px , 0 375px);
+}
+#TopJob .Job_Viwe_Center
+{
+    clip-path: polygon(0 0 , 100% 0, 100% 100% , 261px 100% , 261px 435px ,136px 435px , 136px 100% , 0 100% );
+}
+#TopJob .Job_Viwe_Right 
+{
+    clip-path: polygon(0 0 , 100% 0, 100% 375px ,275px 375px , 275px 100% , 0 100% );
+}
+#TopJob .Arrow_Box
+{
+    height: 100px;
+    width: 100px;
+    border-radius: 100%;
+}
+#TopJob .Arrow_Left
+{
+    position: absolute;
+    margin-top: 400px;
+    margin-left: 100px;
+}
+#TopJob .Arrow_Center
+{
+    position: absolute;
+    margin-top: 450px;
+    margin-left: 747px;
+}
+#TopJob .Arrow_Right
+{
+    position: absolute;
+    margin-top: 400px;
+    margin-left: 1400px;
+}
+#TopJob .Arrow_img_left
+{
+    margin-top: 17px;
+    margin-left: 15px;
+}
+#TopJob .Arrow_img_Center
+{
+    margin-top: 25px;
+    margin-left: 27px;
+}
+#TopJob .Arrow_img_Right
+{
+    margin-top: 17px;
+    margin-left: 15px;
 }
 /* Weblog */
 #Weblog
 {
     width: 100%;
     height: 1350px;
-    margin-top: 75px;
+    margin-top: 125px;
     margin-bottom: 75px;
 }
 /* About Us */
